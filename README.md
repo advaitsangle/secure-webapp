@@ -14,7 +14,7 @@ A minimal **Node.js + Express** backend showcasing secure authentication practic
 - Static demo UI
 
 ## Structure
-secure-app/
+```secure-app/
 ├─ package.json
 ├─ .env
 ├─ src/
