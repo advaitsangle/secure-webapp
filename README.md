@@ -29,7 +29,7 @@ A minimal **Node.js + Express** backend showcasing secure authentication practic
 └─ public/
    ├─ index.html             # Demo UI
    └─ app.js                 # JS that calls backend (with CSRF token, cookies)
-
+```
 
 
 ## Setup
