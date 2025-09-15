@@ -1,0 +1,25 @@
+{
+  "name": "secure-webapp",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "NODE_ENV=development nodemon src/server.js"
+  },
+  "dependencies": {
+    "bcrypt": "5.1.1",
+    "cookie-parser": "1.4.7",
+    "csurf": "1.11.0",
+    "dotenv": "16.4.5",
+    "express": "4.19.2",
+    "express-rate-limit": "7.4.0",
+    "express-validator": "7.0.1",
+    "helmet": "7.1.0",
+    "jsonwebtoken": "9.0.2",
+    "better-sqlite3": "9.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "3.1.7"
+  }
+}

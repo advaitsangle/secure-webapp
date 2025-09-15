@@ -2,27 +2,44 @@
 node_modules/
 npm-debug.log*
 yarn-debug.log*
+yarn-error.log*
 pnpm-debug.log*
 package-lock.json
+.pnpm-debug.log*
 
-# Environment
+# Env & local configs
 .env
 .env.*.local
+*.local
 
-# Database
-*.sqlite
-*.sqlite3
-*.db
-*.sqlite3-*
-*.sqlite-*
-
-# OS/editor
+# OS / editor
 .DS_Store
+Thumbs.db
 .vscode/
 .idea/
+*.swp
+*.swo
 
 # Logs & coverage
 logs/
 *.log
 coverage/
+.nyc_output/
+
+# Builds / caches
 dist/
+.build/
+.cache/
+.eslintcache
+.parcel-cache/
+vite-cache/
+.next/
+out/
+
+# DB & data (keep the schema, ignore actual data files)
+*.sqlite
+*.sqlite3
+*.db
+data/
+tmp/
+
